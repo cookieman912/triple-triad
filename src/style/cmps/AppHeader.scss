@@ -1,0 +1,28 @@
+.app-header {
+    .header-content {
+        margin: auto;
+        max-width: $main-layout-pc;
+
+        nav {
+            display: flex;
+            ul {
+                list-style-type: none;
+                margin: auto;
+                padding: 0;
+                gap: 20px;
+
+                li {
+                    font-size: 1.5em;
+                    a {
+                        color: inherit;
+                        text-decoration: none;
+                    }
+
+                    .active {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

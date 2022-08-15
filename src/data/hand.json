@@ -1,0 +1,42 @@
+[
+    {
+        "id":  0,
+        "name": "Hydaelyn",
+        "upScore": 7,
+        "downScore": 5,
+        "leftScore": 3,
+       "rightScore": 10
+    },
+    {
+        "id":  1,
+        "name": "Zodiark",
+        "upScore": 2,
+        "downScore": 10,
+        "leftScore": 4,
+       "rightScore": 9
+    },
+    {
+        "id":  2,
+        "name": "Warrior of Light",
+        "upScore": 7,
+        "downScore": 7,
+        "leftScore": 7,
+       "rightScore": 7
+    },
+    {
+        "id":  3,
+        "name": "Emet-Selc",
+        "upScore": 3,
+        "downScore": 8,
+        "leftScore": 5,
+       "rightScore": 8
+    },
+    {
+        "id":  4,
+        "name": "Hreasvelgr",
+        "upScore": 9,
+        "downScore": 6,
+        "leftScore": 4,
+       "rightScore": 4
+    }   
+]

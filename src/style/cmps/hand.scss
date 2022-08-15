@@ -1,0 +1,19 @@
+.hand {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+        border: 2px solid black;
+    }
+
+}
+
+.hand:first-child {
+    margin-bottom: 10px;
+}
+
+.hand:last-child {
+    margin-top: 10px;
+}

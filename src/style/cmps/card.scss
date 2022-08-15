@@ -1,0 +1,23 @@
+.card {
+width: 100px;
+height: 150px;
+color: antiquewhite;
+
+display: grid;
+grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+.up-score {
+grid-area: 0, 1/2,3 ;  
+}
+}
+
+.card:hover {
+ cursor: pointer;
+}
+
+.blue-team {
+        background-color: rgb(9, 25, 206);
+}
+
+.red-team {
+        background-color: rgb(135, 7, 7);
+}

@@ -1,0 +1,26 @@
+.board {
+    margin: auto;
+    display: flex;
+    width: 700px;
+    justify-content: center;
+
+    .board-cell {
+        width: 100px;
+        height: 150px;
+        border-right: 2px solid black;
+        border-top: 2px solid black;
+
+    }
+
+    .board-cell:last-child {
+        border-bottom: 2px solid black;
+    }
+
+    .board-row:first-child {
+        border-left: 2px solid black;
+    }
+}
+.hand:first-child {
+    margin-bottom: 10px;
+}
+

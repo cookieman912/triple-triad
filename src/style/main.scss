@@ -1,0 +1,15 @@
+// Setup
+@import './variables.scss';
+@import './setup.scss';
+@import './utilityClasses.scss';
+
+
+// Pages
+// @import './pages/'
+
+// Components 
+@import './cmps/AppHeader.scss';
+@import './cmps/AppFooter.scss';
+@import './cmps/Board.scss';
+@import './cmps/hand.scss';
+@import './cmps/card.scss';
