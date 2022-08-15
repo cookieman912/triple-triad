@@ -1,7 +1,7 @@
 import React from "react";
 import Board from "../cmps/Board";
 import Hand from "../cmps/Hand";
-function Game() {
+export default function Game() {
 
     return (
         <main> 
@@ -11,5 +11,3 @@ function Game() {
         </main>
     )
 }
-
-export default Game()

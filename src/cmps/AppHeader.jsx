@@ -1,4 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+
 
 export default function AppHeader() {
   return (
@@ -7,9 +9,9 @@ export default function AppHeader() {
           <h1>Triple Triad</h1>
           <nav>
             <ul className="flex">
-              <li><NavLink exact to="/">Home</NavLink></li>
-              <li><NavLink exact to="/game">Quick Start</NavLink></li>
-              <li><NavLink exact to="/cards">Cards</NavLink></li>
+              <li><Link  to="/Home">Home</Link></li>
+              <li><Link  to="/game">Quick Start</Link></li>
+              <li><Link  to="/cards">Cards</Link></li>
             </ul>
         </nav>
       </div>  
